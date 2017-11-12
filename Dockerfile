@@ -47,7 +47,7 @@ RUN \
   addgroup -g ${GID} go && \ 
   adduser -D -u ${UID} -G go go && \
   apk --no-cache upgrade && \
-  apk add --no-cache openjdk8-jre-base git mercurial subversion openssh-client bash curl && \
+  apk add --no-cache openjdk8 git mercurial subversion openssh-client bash curl && \
 # download the zip file
   curl --fail --location --silent --show-error "https://download.gocd.org/binaries/17.11.0-5520/generic/go-agent-17.11.0-5520.zip" > /tmp/go-agent.zip && \
 # unzip the zip file into /go-agent, after stripping the first path prefix
