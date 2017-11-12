@@ -18,11 +18,11 @@
 ###############################################################################################
 
 FROM alpine:3.5
-MAINTAINER GoCD <go-cd-dev@googlegroups.com>
+MAINTAINER Paweł Motyl <pawmot@gmail.com>
 
 LABEL gocd.version="17.11.0" \
   description="GoCD agent based on alpine version 3.5" \
-  maintainer="GoCD <go-cd-dev@googlegroups.com>" \
+  maintainer="Paweł Motyl <pawmot@gmail.com>" \
   gocd.full.version="17.11.0-5520" \
   gocd.git.sha="9f6909e2f64b07d2dce5cecd4ea5b92b8e19d6b1"
 
